@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
+      <navbar />
       <h1 class="title">
         nuxt-resume
       </h1>
@@ -23,17 +23,17 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Navbar from '~/components/Navbar';
 
 export default {
   components: {
-    Logo
+    Navbar
   }
 }
 </script>
 
 <style>
-
+/* 
 .container {
   min-height: 100vh;
   display: flex;
@@ -62,5 +62,5 @@ export default {
 
 .links {
   padding-top: 15px;
-}
+} */
 </style>
