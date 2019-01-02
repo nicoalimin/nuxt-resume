@@ -2,12 +2,7 @@
   <section class="container">
     <div>
       <navbar />
-      <h1 class="title">
-        nuxt-resume
-      </h1>
-      <h2 class="subtitle">
-        Nico&#39;s resume
-      </h2>
+      <landing-page />
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -24,10 +19,12 @@
 
 <script>
 import Navbar from '~/components/Navbar';
+import LandingPage from '~/components/LandingPage';
 
 export default {
   components: {
-    Navbar
+    Navbar,
+    LandingPage,
   }
 }
 </script>
